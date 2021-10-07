@@ -1,5 +1,5 @@
-# 프로젝트명
-> 간략한 프로젝트 소개 문구를 작성합니다.
+# LottoStatistics
+> 저희 아버지는 로또를 수기로 작성해서 통계를 내립니다. 그래서 해당 웹페이지 프로젝트를 시작하게 되었습니다.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
