@@ -1,5 +1,6 @@
 # LottoStatistics
-> 저희 아버지는 로또를 수기로 작성해서 통계를 내립니다. 그래서 해당 웹페이지 프로젝트를 시작하게 되었습니다.
+> 저희 아버지는 로또를 수기로 작성합니다. 고사리같은 손으로... 그래서통계를 내리는 페이지를 만들었습니다.
+> 해당 웹페이지에서 확인하세요.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
