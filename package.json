@@ -1,0 +1,23 @@
+{
+  "name": "lottostatistics",
+  "version": "1.0.0",
+  "description": "> 저희 아버지는 로또를 수기로 작성해서 통계를 내립니다. 그래서 해당 웹페이지 프로젝트를 시작하게 되었습니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okchanho/LottoStatistics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okchanho/LottoStatistics/issues"
+  },
+  "homepage": "https://github.com/okchanho/LottoStatistics#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
