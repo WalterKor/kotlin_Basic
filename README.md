@@ -1,5 +1,5 @@
 # LottoStatistics
-> 저희 아버지는 로또를 수기로 작성합니다. 고사리같은 손으로... 그래서통계를 내리는 페이지를 만들었습니다.
+> 해당페이지는 작은 토이프로젝트이고 오징어게임에서 영감을 받아 제작하였습니다.
 > 해당 웹페이지에서 확인하세요.
 
 [![NPM Version][npm-image]][npm-url]
@@ -11,23 +11,13 @@
 
 ## 설치 방법
 
-OS X & 리눅스:
-
 ```sh
-npm install my-crazy-module --save
-```
-
-윈도우:
-
-```sh
-edit autoexec.bat
+npm install
 ```
 
 ## 사용 예제
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
-
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
+config폴더에 dev.js, key.js, prod.js가있고 gitignore처리함
 
 ## 개발 환경 설정
 
@@ -42,12 +32,13 @@ npm test
 
 * 0.0.1
     * 작업 시작(2021.10.07)
+    * navbar(2021.10.14)
 
 ## 정보
 
 nomar – [@Insta](https://www.instagram.com/norman__kor/?hl=ko) 
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/okchanho](https://github.com/okchanho)
 
 ## 기여 방법
 
