@@ -2,22 +2,30 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-
+const mongoose = require('mongoose');
+const config = require('./config/key.js');
 
 class App{
     constructor(){
         this.app = express();
-
-        this.setViewEngine();
+        this.settingDB();
         this.getRouting();
+        this.setViewEngine();
         this.setMiddleWare();
         this.setStatic();
         this.errorHandler();
         this.status404();
-        this.app.get('/',(req, res)=>{
-            res.send('hello');
-        })
 
+    }
+
+    settingDB(){
+        mongoose.connect(config.mongoURI,{useNewUrlParser: true}, function (err, result) {
+            if(err){
+                return console.log(err);
+            }else{
+                console.log("DB CONNECTED");
+            }            
+    });
     }
 
     //Middel Setting
