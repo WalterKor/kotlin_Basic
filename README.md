@@ -35,8 +35,7 @@ npm test
     * navbar(2021.10.14)
 
 ## 정보
-
-nomar – [@Insta](https://www.instagram.com/norman__kor/?hl=ko) 
+nomar – [Insta](https://www.instagram.com/norman__kor/?hl=ko) 
 
 [https://github.com/okchanho](https://github.com/okchanho)
 
