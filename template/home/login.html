@@ -1,6 +1,13 @@
 {% set title = "login" %}
 {% extends "layout/base.html" %}
- 
+<link rel="stylesheet" href="/uploads/css/home/login.css">
+
 {% block content -%}
-    <h1>login page</h1>
+    <div class="loginFormCon">
+        <form action="/login" method="post">
+            <input type="text" name="" id="email">
+            <input type="password" name="" id="password">
+            <button type="submit">로그인</button>
+        </form>
+    </div>
 {%- endblock %}
