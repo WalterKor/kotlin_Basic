@@ -7,6 +7,7 @@ const config = require('./config/key.js');
 
 class App{
     constructor(){
+
         this.app = express();
         this.settingDB();
         this.getRouting();
@@ -15,7 +16,7 @@ class App{
         this.setStatic();
         this.errorHandler();
         this.status404();
-
+        
     }
 
     settingDB(){
