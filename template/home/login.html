@@ -1,13 +1,15 @@
 {% set title = "login" %}
 {% extends "layout/base.html" %}
-<link rel="stylesheet" href="/uploads/css/home/login.css">
 
 {% block content -%}
+<div class="loginBg">
     <div class="loginFormCon">
         <form action="/login" method="post">
-            <input type="text" name="" id="email">
-            <input type="password" name="" id="password">
+            <input type="text" name="" id="email" placeholder="email을 입력하시오" required>
+            <input type="password" name="" id="password" placeholder="Password를 입력하시오" required>
             <button type="submit">로그인</button>
         </form>
-    </div>
+    </div>    
+</div>
+<link rel="stylesheet" href="/uploads/css/home/login.css">
 {%- endblock %}

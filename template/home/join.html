@@ -2,5 +2,18 @@
 {% extends "layout/base.html" %}
  
 {% block content -%}
-    <h1>join page</h1>
+    
+<div class="loginBg">
+    {{ message }}
+    <div class="loginFormCon">
+        <form action="/join" method="post">
+            <input type="text" name="lastname"  placeholder="성을 입력하시오" required>            
+            <input type="text" name="name"  placeholder="이름을 입력하시오" required>            
+            <input type="text" name="eamil"  placeholder="email을 입력하시오" required>            
+            <input type="password" name="password"  placeholder="Password를 입력하시오" required>
+            <button type="submit">회원가입</button>
+        </form>
+    </div>    
+</div>
+<link rel="stylesheet" href="/uploads/css/home/login.css">
 {%- endblock %}
