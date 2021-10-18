@@ -33,6 +33,7 @@ npm test
 * 0.0.1
     * 작업 시작(2021.10.07)
     * navbar(2021.10.14)
+    * reset Project(2021.10.18)
 
 ## 정보
 nomar – [Insta](https://www.instagram.com/norman__kor/?hl=ko) 

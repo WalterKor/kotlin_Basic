@@ -1,0 +1,23 @@
+{
+  "name": "LottoStatistics",
+  "version": "1.0.0",
+  "description": "> 해당페이지는 작은 토이프로젝트이고 오징어게임에서 영감을 받아 제작하였습니다.\r > 해당 웹페이지에서 확인하세요.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okchanho/LottoStatistics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okchanho/LottoStatistics/issues"
+  },
+  "homepage": "https://github.com/okchanho/LottoStatistics#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
