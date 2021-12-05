@@ -1,5 +1,5 @@
 # BTS_GALLERY
-> 첫강의
+> 이미지 클릭시 이벤트 발생
 
 ![](../header.png)
 
